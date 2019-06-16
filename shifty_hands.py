@@ -199,7 +199,7 @@ def lean_with_it(rpc_api):
 
     host = sys.argv[1]
     port = sys.argv[2]
-    url = "http://"+host+":"port
+    url = "http://"+host+":"+port
     try:
        lean_with_it(url)
        
